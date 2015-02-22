@@ -3,7 +3,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	background-color: #263651;
 }
-h1, h2, h3{
+h1, h2{
 	font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -44,7 +44,10 @@ h1, h2, h3{
 	background-color: #263651;
 	height: 40em;
 	margin: 0 0;
-	padding: 10em 10em;
+	padding-right: 5em;
+	padding-left: 5em;
+	padding-top: 13em;
+	padding-bottom: 10em;
 	color: white;
 }
 
