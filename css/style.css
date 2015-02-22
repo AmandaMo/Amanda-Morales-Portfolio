@@ -1,0 +1,59 @@
+body{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.toolbar{
+	background-color: white;
+	padding: 1em 10em;
+	margin: 0 0;
+}
+
+.toolbar .navigation{
+	height: 6em;
+}
+
+.navigation .links{
+	list-style: none;
+	float: right;
+	padding-top: 2em;
+}
+
+.navigation .links li{
+	display: inline-block;
+	padding-left: 4em;
+}
+
+.navigation .logo {
+	float:left;
+}
+.intro{
+	background-color: #263651;
+	height: 15em;
+	margin: 0 0;
+	padding: 2em 10em;
+	color: white;
+}
+
+.info{
+	background-color: #bad4d0;
+	padding: 2em 10em;
+	height: 35em;
+}
+
+.info .self{
+	float: left;
+}
+
+.info .text{
+	float: right;
+}
+
+.portfolio{
+	background-color: #136269;
+	padding: 2em 0;
+	color: white;
+}
