@@ -17,7 +17,7 @@ h1, h2{
 
 .toolbar .navigation{
 	height: 5em;
-	color: #136269;
+	color: #263651;
 }
 
 .navigation .links{
@@ -51,6 +51,15 @@ h1, h2{
 	color: white;
 }
 
+.intro-images{
+	display: inline-block;
+	padding: 2em 0;
+}
+
+.pencil, .stretchRight, .laptop{
+	padding: 0 5em;
+}
+
 .info{
 	background-color: #bad4d0;
 	padding: 2em 10em;
@@ -69,4 +78,15 @@ h1, h2{
 	background-color: #136269;
 	padding: 2em 0;
 	color: white;
+}
+
+@media only screen and (max-width: 950px){
+	.pencil, .laptop {
+		height: 7em;
+	}
+	.stretchRight{
+		height: 2em;
+		padding: 0 0;
+	}
+
 }

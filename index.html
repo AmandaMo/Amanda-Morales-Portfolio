@@ -4,6 +4,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/animations.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<link rel="icon" type="image/png" href="images/logosmall.png"/>
 	<link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans|Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
 	<title>Amanda Morales Portfolio</title>
@@ -21,9 +22,11 @@
 	</nav>
 	<section class="Main">
 		<div class="intro">
-			<img class="pencil" src="images/pencil.svg" alt="pencil" height="150">
-			<img class="arrow" src="images/arrow.svg" alt="arrow" height="50">
-			<img class="laptop" src="images/laptop.svg" alt="laptop" height="150">
+			<div class="intro-images">
+				<img class="pencil" src="images/pencil.svg" alt="pencil" height="150">
+				<img class="stretchRight" src="images/arrow.svg" alt="arrow" height="50">
+				<img class="laptop" src="images/laptop.svg" alt="laptop" height="150">
+			</div>
 			<h1>Amanda Morales</h1>
 			<h3>industrial design turned front end web developer</h3>
 		</div>
@@ -52,6 +55,18 @@
 	<footer>
 		<p>contact info</p>
 	</footer>
+	<script>
+	$(window).scroll(function() {
+		$('stretchRight').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+200) {
+				$(this).addClass("stretchRight");
+			}
+		});
+	});
+</script>
 </body>
 
 </html>
