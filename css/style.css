@@ -8,9 +8,8 @@ h1, h2{
 }
 
 .toolbar{
-	background-color: rgba(255,250,250,0.8);
+	background-color: rgba(186,212,208,0.9);
 	padding: .5em 5em;
-	margin: 0 0;
 	position: fixed;
 	width: 100%;
 }
@@ -42,13 +41,13 @@ h1, h2{
 }
 .intro{
 	background-color: #263651;
-	height: 40em;
-	margin: 0 0;
+	height: 35em;
 	padding-right: 5em;
 	padding-left: 5em;
-	padding-top: 13em;
+	padding-top: 10em;
 	padding-bottom: 10em;
 	color: white;
+	margin:0 0;
 }
 
 .intro-images{
@@ -60,23 +59,49 @@ h1, h2{
 	padding: 0 5em;
 }
 
+.intro h1{
+	font-size: 4em;
+}
+
+.intro h3{
+	color: #bad4d0;
+	font-size: 1.35em;
+}
+
 .info{
 	background-color: #bad4d0;
 	padding: 2em 10em;
 	height: 35em;
 }
 
+.container{
+	max-width: 600px;
+}
+
 .info .self{
 	float: left;
+	padding-top: 1em;
 }
 
 .info .text{
+	width: 25em;
 	float: right;
+	text-align: justify;
+	padding-top: 8em;
+}
+
+.text h2{
+	color: #136269;
 }
 
 .portfolio{
 	background-color: #136269;
-	padding: 2em 0;
+	padding: 2em 2em;
+	color: white;
+
+}
+
+.contact{
 	color: white;
 }
 
