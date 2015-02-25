@@ -14,6 +14,11 @@ h1, h2{
 	width: 100%;
 }
 
+.portfolio a:hover, .links a:hover{
+	color: #d83f3f;
+	text-decoration: none;
+}
+
 .toolbar .navigation{
 	height: 5em;
 	color: #263651;
@@ -86,8 +91,9 @@ h1, h2{
 .info .text{
 	width: 25em;
 	float: right;
-	text-align: justify;
-	padding-top: 8em;
+	text-align: left;
+	padding-top: 4em;
+	padding-left: 1em;
 }
 
 .text h2{
@@ -97,8 +103,19 @@ h1, h2{
 .portfolio{
 	background-color: #136269;
 	padding: 2em 2em;
-	color: white;
 	font-size: 1.25em;
+}
+
+.portfolio h2{
+	color:white;
+}
+
+.portfolio a{
+	color:#bad4d0; 
+}
+
+.work h2{
+	font-size: 2.5em;
 }
 
 .contact{
@@ -123,9 +140,15 @@ h1, h2{
 	border-radius: 1em;
 }
 
-.contact a, a:hover{
+.contact a{
 	text-decoration: none;
 	color:#d83f3f; 
+	font-size: 1.25em;
+}
+
+.contact a:hover{
+	text-decoration: none;
+	color:#136269;
 	font-size: 1.25em;
 }
 
