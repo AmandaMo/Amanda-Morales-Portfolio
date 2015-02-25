@@ -12,6 +12,7 @@ h1, h2{
 	padding: .5em 5em;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 
 .portfolio a:hover, .links a:hover{
@@ -49,7 +50,7 @@ h1, h2{
 	height: 35em;
 	padding-right: 5em;
 	padding-left: 5em;
-	padding-top: 10em;
+	padding-top: 8em;
 	padding-bottom: 10em;
 	color: white;
 	margin:0 0;
@@ -126,8 +127,8 @@ h1, h2{
 
 .row{
 	padding-top: 2em;
-	padding-right: 15em;
-	padding-left: 15em;
+	
+	
 }
 
 .row p{
@@ -152,13 +153,100 @@ h1, h2{
 	font-size: 1.25em;
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 900px){
+	.toolbar{
+		padding: 1em 2em;
+	}
+	.toolbar .navigation{
+	height: 3.5em;
+	}
+	.navigation .logo {
+	width: 3em;
+	height: 3em;
+	}
+	.navigation .links{
+	padding-top: 1em;
+	}
+	.navigation .links li{
+		padding-left: 1em;
+	}
 	.pencil, .laptop {
-		height: 7em;
+		height: 3em;
+		padding: 0 0;
+	}
+	.stretchRight{
+		height: .5em;
+		padding: 0 0;
+	}
+	.intro{
+		padding-top: 8em;
+		height: 25em;
+	}
+	.intro h1{
+	font-size: 2em;
+	}
+	.intro h3{
+		font-size: 1em;
+	}
+	.info{
+		height: 25em;
+		padding: 0 0;
+	}
+	.info h2{
+		font-size: 2em;
+	}
+	.info .self{
+		height: 20em;
+	}
+	.info .text{
+		text-align: center;
+		padding: 0 0;
+	}
+	.work h2{
+	font-size: 2em;
+	}
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 901px){
+	.toolbar .navigation{
+	height: 4em;
+	}
+	.navigation .logo {
+	width: 4em;
+	height: 4em;
+	}
+	.navigation .links{
+	padding-top: 1.25em;
+	}
+	.intro{
+		padding-top: 7em;
+		height: 28em;
+	}
+	.pencil, .laptop {
+		height: 5em;
+		padding-left: 0 1em;
 	}
 	.stretchRight{
 		height: 2em;
 		padding: 0 0;
 	}
+	.intro h1{
+	font-size: 2em;
+	}
+	.intro h3{
+		color: #bad4d0;
+		font-size: 1em;
+	}
 
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1201px){
+	.pencil, .laptop {
+		height: 9em;
+	}
+	.stretchRight{
+		height: 4em;
+		padding: 0 0;
+	}
 }

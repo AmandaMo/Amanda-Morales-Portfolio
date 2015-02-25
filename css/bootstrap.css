@@ -4,6 +4,13 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+.toolbar{
+  background-color: rgba(255,255,255,0.8);
+  padding: .5em 5em;
+  position: fixed;
+  width: 100%;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
